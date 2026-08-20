@@ -58,6 +58,7 @@ export default function RootLayout({
           <Footer />
           <StatusBar />
         </div>
+        <Analytics />
       </body>
     </html>
   );
