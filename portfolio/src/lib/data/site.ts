@@ -12,15 +12,15 @@ export const site = {
   email: "mmayr006@gmail.com",
   /** Kurzer Claim für Hero & Meta-Description */
   tagline:
-    "Ich baue schnelle, durchdachte Software — vom ersten Commit bis zum Deploy.",
+    "Ich baue Software, die ich selbst gerne benutzen würde — von der ersten Zeile Code bis zum Deploy.",
   /** Etwas ausführlicher, für den Hero-Absatz auf der Startseite */
   heroDescription:
-    "Ich bin Software Developer mit Fokus auf moderne Web-Anwendungen. Ich mag klaren Code, durchdachte Interfaces und Tools, die im Alltag wirklich helfen.",
+    "Software Developer mit einem Faible für moderne Web-Anwendungen. Ich mag sauberen Code, durchdachte Interfaces und Tools, die im Alltag wirklich was bringen — kein unnötiger Schnickschnack.",
   /** Für die Über-mich-Seite */
   aboutText: [
-    "Ich beschäftige mich mit Softwareentwicklung, weil mich die Kombination aus Logik und Gestaltung fasziniert: Ein Problem in klare Struktur zu übersetzen und daraus etwas zu bauen, das andere Menschen wirklich benutzen.",
-    "Mein Fokus liegt auf modernen Web-Technologien — von performanten Frontends bis zu sauber strukturierten Backends. Mir ist wichtig, dass Code nicht nur funktioniert, sondern auch verständlich und wartbar bleibt.",
-    "Außerhalb der Arbeit beschäftige ich mich mit neuen Tools, offenen Standards und optimiere gerne mein eigenes Setup — mehr dazu auf der Setup-Seite.",
+    "Angefangen hat alles damit, dass ich einfach verstehen wollte, wie die Dinge hinter dem Bildschirm eigentlich funktionieren. Mittlerweile ist daraus mehr geworden: Ich liebe es, aus einem unübersichtlichen Problem eine klare Struktur zu bauen — und am Ende steht etwas, das echte Menschen tatsächlich benutzen.",
+    "Mein Fokus liegt auf modernen Web-Technologien — von schnellen, durchdachten Frontends bis zu sauber aufgebauten Backends. Code, der nur funktioniert, reicht mir nicht: Er soll auch in einem Jahr noch verständlich sein, wenn ich (oder jemand anderes) ihn wieder aufmacht.",
+    "Wenn ich nicht gerade an einem Projekt sitze, probiere ich neue Tools aus, lese mich in offene Standards ein oder schraube an meinem eigenen Setup rum — Details dazu gibt's auf der Setup-Seite.",
   ],
   availability: "Offen für neue Projekte",
   siteUrl: "https://example.com", // Für Produktion anpassen (Vercel-Domain o.ä.)
@@ -29,7 +29,7 @@ export const site = {
 export const socials: SocialLink[] = [
   {
     label: "GitHub",
-    href: "https://github.com/dein-username", // TODO: ersetzen
+    href: "https://github.com/mm06it",
     icon: "github",
   },
   {
