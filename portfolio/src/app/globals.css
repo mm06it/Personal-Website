@@ -161,3 +161,24 @@ body {
 .animate-fade-up {
   animation: fade-up 0.6s cubic-bezier(0.16, 1, 0.3, 1) both;
 }
+
+/* Faint technical grid + ambient accent glow, used behind hero/page-header sections.
+   Combined into one background-image list — separate classes would each overwrite
+   the other's background-image in the cascade. */
+.hero-backdrop {
+  background-image:
+    radial-gradient(560px circle at 12% 15%, var(--accent-soft), transparent 60%),
+    radial-gradient(480px circle at 88% 55%, var(--accent-soft), transparent 60%),
+    linear-gradient(to right, var(--border) 1px, transparent 1px),
+    linear-gradient(to bottom, var(--border) 1px, transparent 1px);
+  background-size:
+    auto,
+    auto,
+    44px 44px,
+    44px 44px;
+}
+
+.bg-grid-fade {
+  -webkit-mask-image: radial-gradient(ellipse 70% 60% at 50% 0%, black 30%, transparent 100%);
+  mask-image: radial-gradient(ellipse 70% 60% at 50% 0%, black 30%, transparent 100%);
+}
