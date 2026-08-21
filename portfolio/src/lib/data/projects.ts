@@ -16,7 +16,7 @@ export const projects: Project[] = [
     tech: ["Next.js", "TypeScript", "Tailwind CSS"],
     category: "web",
     githubUrl: "https://github.com/dein-username/portfolio",
-    demoUrl: "https://example.com",
+    demoUrl: "https://personal-website-ecru-seven-62.vercel.app/",
     featured: true,
     year: 2026,
   },
@@ -34,19 +34,7 @@ export const projects: Project[] = [
     featured: true,
     year: 2025,
   },
-  {
-    slug: "devmetrics-cli",
-    title: "devmetrics-cli",
-    description:
-      "Ein Kommandozeilen-Tool, das Git-Repositories analysiert und Commit-, Review- und Deploy-Statistiken übersichtlich darstellt.",
-    summary:
-      "Verteilt als npm-Paket, mit Plugin-Schnittstelle für eigene Metriken.",
-    tech: ["Node.js", "TypeScript", "CLI"],
-    category: "tool",
-    githubUrl: "https://github.com/dein-username/devmetrics-cli",
-    featured: true,
-    year: 2025,
-  },
+    
   {
     slug: "recipe-radar",
     title: "Recipe Radar",
